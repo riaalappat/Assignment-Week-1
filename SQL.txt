@@ -1,0 +1,2 @@
+select * from emp where hiredate like '__-FEB-81' AND COMM>400;
+select count(*) from emp where COMM IS NULL OR COMM=0;
